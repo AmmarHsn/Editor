@@ -1,0 +1,552 @@
+[
+	{
+		"categories" : 
+		[
+			{
+				"display_name" : "BflrCh",
+				"id" : 10,
+				"name" : "Black floor Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "GflrCh",
+				"id" : 11,
+				"name" : "Gray floor Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "WflrCh",
+				"id" : 12,
+				"name" : "White floor Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "NgbCh",
+				"id" : 13,
+				"name" : "Neighbors count Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "INgbCh",
+				"id" : 14,
+				"name" : "Inverted neighbors count Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "FPrbCh",
+				"id" : 15,
+				"name" : "Fixed Probability Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "BflrTu",
+				"id" : 20,
+				"name" : "Black floor Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "GflrTu",
+				"id" : 21,
+				"name" : "Gray floor Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "WflrTu",
+				"id" : 22,
+				"name" : "White floor Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "NgbTu",
+				"id" : 23,
+				"name" : "Neighbors count Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "INgbTu",
+				"id" : 24,
+				"name" : "Inverted neighbors count Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "FPrbTu",
+				"id" : 25,
+				"name" : "Fixed Probability Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "CPrbTu",
+				"id" : 27,
+				"name" : "Color probability Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "l",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Light",
+						"step" : 1
+					},
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "BflrCo",
+				"id" : 30,
+				"name" : "Black floor Coconut",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "GflrCo",
+				"id" : 31,
+				"name" : "Gray floor Coconut",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "WflrCo",
+				"id" : 32,
+				"name" : "White floor Coconut",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "NgbCo",
+				"id" : 33,
+				"name" : "Neighbors count Coconut",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "INgbCo",
+				"id" : 34,
+				"name" : "Inverted neighbors count Coconut",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "FPrbCo",
+				"id" : 35,
+				"name" : "Fixed Probability Coconut",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "BflrMa",
+				"id" : 40,
+				"name" : "Black floor Maple",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "GflrMa",
+				"id" : 41,
+				"name" : "Gray floor Maple",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "WflrMa",
+				"id" : 42,
+				"name" : "White floor Maple",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "NgbMa",
+				"id" : 43,
+				"name" : "Neighbors count Maple",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "INgbMa",
+				"id" : 44,
+				"name" : "Inverted neighbors count Maple",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "FPrbMa",
+				"id" : 45,
+				"name" : "Fixed Probability Maple",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "BflrHa",
+				"id" : 50,
+				"name" : "Black floor Harlequin",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "GflrHa",
+				"id" : 51,
+				"name" : "Gray floor Harlequin",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "WflrHa",
+				"id" : 52,
+				"name" : "White floor Harlequin",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "NgbHa",
+				"id" : 53,
+				"name" : "Neighbors count Harlequin",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "INgbHa",
+				"id" : 54,
+				"name" : "Inverted neighbors count Harlequin",
+				"params" : 
+				[
+					{
+						"id" : "w",
+						"max" : 20,
+						"min" : 0,
+						"name" : "ξ",
+						"step" : 0.01
+					},
+					{
+						"id" : "n",
+						"max" : 10,
+						"min" : 1,
+						"name" : "ƞ",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "FPrbHa",
+				"id" : 55,
+				"name" : "Fixed Probability Harlequin",
+				"params" : 
+				[
+					{
+						"id" : "p",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Probability",
+						"step" : 0.01
+					}
+				]
+			}
+		],
+		"categories_name" : "Condition",
+		"categoryid" : "c",
+		"typeid" : 0
+	}
+]

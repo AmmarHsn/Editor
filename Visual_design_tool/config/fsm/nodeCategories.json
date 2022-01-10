@@ -1,0 +1,511 @@
+[
+	{
+		"categories" : 
+		[
+			{
+				"display_name" : "ExpCh",
+				"id" : 10,
+				"name" : "Exploration Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "StopCh",
+				"id" : 11,
+				"name" : "Stop Chocolate",
+				"params" : []
+			},
+			{
+				"display_name" : "PhaCh",
+				"id" : 12,
+				"name" : "Phototaxis Chocolate",
+				"params" : []
+			},
+			{
+				"display_name" : "APhaCh",
+				"id" : 13,
+				"name" : "Anti-phototaxis Chocolate",
+				"params" : []
+			},
+			{
+				"display_name" : "AttrCh",
+				"id" : 14,
+				"name" : "Attraction Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "att",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Attraction",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "RepCh",
+				"id" : 15,
+				"name" : "Repulsion Chocolate",
+				"params" : 
+				[
+					{
+						"id" : "rep",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Repulsion",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "ExpTu",
+				"id" : 20,
+				"name" : "Exploration Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					},
+					{
+						"id" : "cle",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Emission",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "StopTu",
+				"id" : 21,
+				"name" : "Stop Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "cle",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Emission",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "AttrTu",
+				"id" : 24,
+				"name" : "Attraction Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "att",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Attraction",
+						"step" : 1
+					},
+					{
+						"id" : "cle",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Emission",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "RepTu",
+				"id" : 25,
+				"name" : "Repulsion Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "rep",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Repulsion",
+						"step" : 1
+					},
+					{
+						"id" : "cle",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Emission",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "GtcTu",
+				"id" : 28,
+				"name" : "Go to color Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "vel",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Velocity",
+						"step" : 1
+					},
+					{
+						"id" : "cle",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Emission",
+						"step" : 1
+					},
+					{
+						"id" : "clr",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Reception",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "GacTu",
+				"id" : 29,
+				"name" : "Go away color Tuttifrutti",
+				"params" : 
+				[
+					{
+						"id" : "vel",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Velocity",
+						"step" : 1
+					},
+					{
+						"id" : "cle",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Emission",
+						"step" : 1
+					},
+					{
+						"id" : "clr",
+						"max" : 6,
+						"min" : 0,
+						"name" : "Color Reception",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "ExpCo",
+				"id" : 30,
+				"name" : "Exploration Coconut",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					},
+					{
+						"id" : "exp",
+						"max" : 2,
+						"min" : 0,
+						"name" : "Exploration",
+						"step" : 1
+					},
+					{
+						"id" : "mu",
+						"max" : 3,
+						"min" : 1.01,
+						"name" : "Move Length",
+						"step" : 0.01
+					},
+					{
+						"id" : "rho",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Turning Angle",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "StopCo",
+				"id" : 31,
+				"name" : "Stop Coconut",
+				"params" : []
+			},
+			{
+				"display_name" : "PhaCo",
+				"id" : 32,
+				"name" : "Phototaxis Coconut",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					},
+					{
+						"id" : "exp",
+						"max" : 2,
+						"min" : 0,
+						"name" : "Exploration",
+						"step" : 1
+					},
+					{
+						"id" : "mu",
+						"max" : 3,
+						"min" : 1.01,
+						"name" : "Move Length",
+						"step" : 0.01
+					},
+					{
+						"id" : "rho",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Turning Angle",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "APhaCo",
+				"id" : 33,
+				"name" : "Anti-phototaxis Coconut",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					},
+					{
+						"id" : "exp",
+						"max" : 2,
+						"min" : 0,
+						"name" : "Exploration",
+						"step" : 1
+					},
+					{
+						"id" : "mu",
+						"max" : 3,
+						"min" : 1.01,
+						"name" : "Move Length",
+						"step" : 0.01
+					},
+					{
+						"id" : "rho",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Turning Angle",
+						"step" : 0.01
+					}
+				]
+			},
+			{
+				"display_name" : "AttrCo",
+				"id" : 34,
+				"name" : "Attraction Coconut",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					},
+					{
+						"id" : "exp",
+						"max" : 2,
+						"min" : 0,
+						"name" : "Exploration",
+						"step" : 1
+					},
+					{
+						"id" : "mu",
+						"max" : 3,
+						"min" : 1.01,
+						"name" : "Move Length",
+						"step" : 0.01
+					},
+					{
+						"id" : "rho",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Turning Angle",
+						"step" : 0.01
+					},
+					{
+						"id" : "att",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Attraction",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "RepCo",
+				"id" : 35,
+				"name" : "Repulsion Coconut",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					},
+					{
+						"id" : "exp",
+						"max" : 2,
+						"min" : 0,
+						"name" : "Exploration",
+						"step" : 1
+					},
+					{
+						"id" : "mu",
+						"max" : 3,
+						"min" : 1.01,
+						"name" : "Move Length",
+						"step" : 0.01
+					},
+					{
+						"id" : "rho",
+						"max" : 1,
+						"min" : 0,
+						"name" : "Turning Angle",
+						"step" : 0.01
+					},
+					{
+						"id" : "rep",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Repulsion",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "ExpMa",
+				"id" : 40,
+				"name" : "Exploration Maple",
+				"params" : 
+				[
+					{
+						"id" : "rwm",
+						"max" : 100,
+						"min" : 0,
+						"name" : "Steps Range",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "StopMa",
+				"id" : 41,
+				"name" : "Stop Maple",
+				"params" : []
+			},
+			{
+				"display_name" : "PhaMa",
+				"id" : 42,
+				"name" : "Phototaxis Maple",
+				"params" : []
+			},
+			{
+				"display_name" : "APhaMa",
+				"id" : 43,
+				"name" : "Anti-phototaxis Maple",
+				"params" : []
+			},
+			{
+				"display_name" : "AttrMa",
+				"id" : 44,
+				"name" : "Attraction Maple",
+				"params" : 
+				[
+					{
+						"id" : "att",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Attraction",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "RepMa",
+				"id" : 45,
+				"name" : "Repulsion Maple",
+				"params" : 
+				[
+					{
+						"id" : "rep",
+						"max" : 5,
+						"min" : 1,
+						"name" : "Repulsion",
+						"step" : 1
+					}
+				]
+			},
+			{
+				"display_name" : "ExpHa",
+				"id" : 50,
+				"name" : "Exploration Harlequin",
+				"params" : []
+			},
+			{
+				"display_name" : "StopHa",
+				"id" : 51,
+				"name" : "Stop Harlequin",
+				"params" : []
+			},
+			{
+				"display_name" : "PhaHa",
+				"id" : 52,
+				"name" : "Phototaxis Harlequin",
+				"params" : []
+			},
+			{
+				"display_name" : "APhaHa",
+				"id" : 53,
+				"name" : "Anti-phototaxis Harlequin",
+				"params" : []
+			},
+			{
+				"display_name" : "AttrHa",
+				"id" : 54,
+				"name" : "Attraction Harlequin",
+				"params" : []
+			},
+			{
+				"display_name" : "RepHa",
+				"id" : 55,
+				"name" : "Repulsion Harlequin",
+				"params" : []
+			}
+		],
+		"categories_name" : "Behavior",
+		"categoryid" : "s",
+		"typeid" : 0
+	}
+]
